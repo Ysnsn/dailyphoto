@@ -46,9 +46,9 @@ jobs:
 
               run: |
 
-                git config --global user.name "wenmoux"
+                git config --global user.name "Ysnsn"
 
-                git config --global user.email "wenmoux@gmail.com.com"
+                git config --global user.email "wyang0558@gmail.com"
 
                 git add .
 
