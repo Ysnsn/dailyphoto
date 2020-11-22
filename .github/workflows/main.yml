@@ -1,0 +1,57 @@
+name: Github zuimeiawallpaper download
+
+ 
+
+on:
+
+    push:
+
+        branches:
+
+            - master
+
+    schedule:
+
+        - cron: '0 0 * * *'
+
+jobs:
+
+    build:
+
+        runs-on: ubuntu-latest
+
+ 
+
+        steps:
+
+            - name: Checkout codes
+
+              uses: actions/checkout@v2
+
+            - name: Use Node.js
+
+              uses: actions/setup-node@v1
+
+              with:
+
+                node-version: '12.x'
+
+            - name: Run
+
+              run: npm install
+
+            - run: node zuimeiawallpaper.js
+
+            - name: Upload to this repo
+
+              run: |
+
+                git config --global user.name "wenmoux"
+
+                git config --global user.email "wenmoux@gmail.com.com"
+
+                git add .
+
+                git commit -m 'upload daily zuimeia wallpaper' 
+
+                git push -u origin master

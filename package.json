@@ -1,0 +1,23 @@
+{
+  "name": "dailyphoto",
+  "version": "1.0.0",
+  "main": "zuimeiawallpaper.js",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "chegege"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "updates": "",
+  "contributes": {
+    "search": null
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  }
+}
