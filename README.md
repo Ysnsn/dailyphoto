@@ -2,6 +2,6 @@
 
 <div align="center"> 
   
-![](https://img.shields.io/github/repo-size/Ysnsn/dailyphoto?style=for-the-badge)
+![GitHub](https://img.shields.io/github/repo-size/Ysnsn/dailyphoto?style=for-the-badge)
 
 </div>
