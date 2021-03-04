@@ -48,7 +48,7 @@ jobs:
 
                 git config --global user.name "Ysnsn"
 
-                git config --global user.email "wyang0558@gmail.com"
+                git config --global user.email "2746130558@qq.com"
 
                 git add .
 
