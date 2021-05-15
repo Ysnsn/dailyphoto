@@ -41,17 +41,15 @@ jobs:
               run: npm install
 
             - run: node zuimeiawallpaper.js
+              env:
+                  botapi: ${{ secrets.botapi }}
+                  chatid: ${{ secrets.chatid }}
 
             - name: Upload to this repo
 
               run: |
-
                 git config --global user.name "Ysnsn"
-
                 git config --global user.email "2746130558@qq.com"
-
                 git add .
-
                 git commit -m 'upload daily zuimeia wallpaper' 
-
                 git push -u origin main
